@@ -1,0 +1,69 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="420" fill="#11101a"/>
+  <path d="M0 0h960v420H0z" fill="#151421"/>
+  <g opacity=".22" stroke="#5b4c86">
+    <path d="M52-20-68 440M118-20-2 440M184-20 64 440M250-20 130 440M316-20 196 440M382-20 262 440M448-20 328 440M514-20 394 440M580-20 460 440M646-20 526 440M712-20 592 440M778-20 658 440M844-20 724 440M910-20 790 440M976-20 856 440"/>
+  </g>
+  <text x="480" y="64" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffd873">BEAUTIFUL TETRIS</text>
+  <text x="480" y="92" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="15" fill="#9eeaff">windowed Rust Tetris with neon trails, sound and AI autoplay</text>
+
+  <g filter="url(#glow)">
+    <rect x="362" y="112" width="236" height="272" rx="6" fill="#090a10" stroke="#d7a94b" stroke-opacity=".55" stroke-width="2"/>
+    <g opacity=".28" stroke="#344052">
+      <path d="M385.6 112v272M409.2 112v272M432.8 112v272M456.4 112v272M480 112v272M503.6 112v272M527.2 112v272M550.8 112v272M574.4 112v272"/>
+      <path d="M362 135.6h236M362 159.2h236M362 182.8h236M362 206.4h236M362 230h236M362 253.6h236M362 277.2h236M362 300.8h236M362 324.4h236M362 348h236M362 371.6h236"/>
+    </g>
+    <g opacity=".26">
+      <rect x="456.4" y="159.2" width="23.6" height="23.6" fill="#58e6ff"/>
+      <rect x="480" y="159.2" width="23.6" height="23.6" fill="#58e6ff"/>
+      <rect x="503.6" y="159.2" width="23.6" height="23.6" fill="#58e6ff"/>
+      <rect x="527.2" y="159.2" width="23.6" height="23.6" fill="#58e6ff"/>
+    </g>
+    <g>
+      <rect x="409.2" y="324.4" width="23.6" height="23.6" fill="#61f274"/>
+      <rect x="432.8" y="324.4" width="23.6" height="23.6" fill="#61f274"/>
+      <rect x="432.8" y="348" width="23.6" height="23.6" fill="#61f274"/>
+      <rect x="456.4" y="348" width="23.6" height="23.6" fill="#61f274"/>
+      <rect x="480" y="300.8" width="23.6" height="23.6" fill="#bd73ff"/>
+      <rect x="456.4" y="324.4" width="23.6" height="23.6" fill="#bd73ff"/>
+      <rect x="480" y="324.4" width="23.6" height="23.6" fill="#bd73ff"/>
+      <rect x="503.6" y="324.4" width="23.6" height="23.6" fill="#bd73ff"/>
+      <rect x="527.2" y="300.8" width="23.6" height="23.6" fill="#ff9440"/>
+      <rect x="527.2" y="324.4" width="23.6" height="23.6" fill="#ff9440"/>
+      <rect x="527.2" y="348" width="23.6" height="23.6" fill="#ff9440"/>
+      <rect x="550.8" y="348" width="23.6" height="23.6" fill="#ff9440"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="150" y="132" width="166" height="218" rx="6" fill="#171622" stroke="#967a46" stroke-opacity=".45"/>
+    <text x="178" y="176" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="700" fill="#9eeaff">HOLD</text>
+    <rect x="204" y="208" width="26" height="26" fill="#ffd640"/>
+    <rect x="230" y="208" width="26" height="26" fill="#ffd640"/>
+    <rect x="204" y="234" width="26" height="26" fill="#ffd640"/>
+    <rect x="230" y="234" width="26" height="26" fill="#ffd640"/>
+    <rect x="174" y="294" width="118" height="38" rx="4" fill="#0b0d14" stroke="#58e6ff" stroke-opacity=".36"/>
+    <text x="190" y="318" font-family="Verdana, Arial, sans-serif" font-size="15" font-weight="700" fill="#8ff2ff">AI NATURAL</text>
+  </g>
+
+  <g>
+    <rect x="644" y="132" width="166" height="218" rx="6" fill="#171622" stroke="#967a46" stroke-opacity=".45"/>
+    <text x="672" y="176" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="700" fill="#9eeaff">NEXT</text>
+    <rect x="706" y="204" width="26" height="26" fill="#5290ff"/>
+    <rect x="706" y="230" width="26" height="26" fill="#5290ff"/>
+    <rect x="706" y="256" width="26" height="26" fill="#5290ff"/>
+    <rect x="680" y="256" width="26" height="26" fill="#5290ff"/>
+    <rect x="680" y="306" width="26" height="26" fill="#ff485b"/>
+    <rect x="706" y="306" width="26" height="26" fill="#ff485b"/>
+    <rect x="706" y="332" width="26" height="26" fill="#ff485b"/>
+    <rect x="732" y="332" width="26" height="26" fill="#ff485b"/>
+  </g>
+
+  <defs>
+    <filter id="glow" x="120" y="70" width="720" height="360" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.65 0 0 0 0 0.45 0 0 0 0 0.14 0 0 0 .5 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+</svg>
